@@ -35,7 +35,7 @@ class IrregularHoursPage {
         await page.getByRole("button", { name: "Continue" }).click();
     }
     async selectNoAndContinueOn(page: Page): Promise<void> {
-        await page.click('label[for="response-0"]');
+        await page.click('label[for="response-1"]');
         await page.getByRole("button", { name: "Continue" }).click();
     }
 
